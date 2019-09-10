@@ -1,0 +1,84 @@
+
+
+
+
+
+:root {
+    --color-1: #992e24;
+    --color-2: #e9e5dd;
+    --color-3: #01d28e;
+    --color-4: #696464;
+}
+html {
+    height: 100%;
+    font-family: Courier;
+}
+body{
+    padding:0;
+    margin:0;
+    background-color: #f6f5f5;
+    height: 100%;
+}
+#nav-bar{
+    width:100%;
+    height: 60px;
+    background-color:#33313b;
+}
+#nav-bar .nav-bar-item{
+    max-width: 200px;
+    min-width: 160px;
+    height:100%;
+    float:left;
+    background-color: #e3c4a8;
+    color: #33313b;
+    margin-right: 5px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#nav-bar a{
+    text-decoration: none;
+}
+
+#nav-bar .nav-bar-item:hover{
+    background-color: #4592af;
+
+}
+
+.banner h1 {
+    font-family: Courier;
+    text-transform: uppercase;
+    font-size: 5rem;
+}
+
+.imgBanner {
+    background-image: url('Resources/Pictures/goodpic.png');
+    height: 45em;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no repeat;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-container{
+    display: none;
+    position: absolute;
+    background-color: #e3c4a8;
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown:hover .dropdown-container{
+    display: block;
+}
+
+.dropdown-item{
+    width: 100%;
+}
+.dropdown-item:hover{
+    background-color:#4592af;
+}
